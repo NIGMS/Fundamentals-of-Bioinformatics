@@ -1,0 +1,10 @@
+[
+    {
+        "front": "hint",
+     "back": "You can use the --help flag with any bash command to get a reminder of the usage syntax as well as the definition of available flags."
+    },
+    {
+        "front": "answer",
+        "back": "wc -l FILENAME <br> grep -c \"^>\" FILENAME <br> grep -m 3 \"^>\" FILENAME <br> head FILENAME"
+    }
+]

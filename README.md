@@ -3,6 +3,8 @@
 
 This module introduces you to the BASH coding language, working with common genomics file formats, and working within the terminal environment. In addition to the overview given in this README you will find 6 submodules in the forms of Jupyter notebooks that teach you different components of working with genomics data in the cloud. To use our module clone this repo using `git clone https://github.com/NIGMS/IntroBioinformaticsDartmouth` and then navigate to the directory for this project. You will then see the notebooks in your environment.
 
+This module will cost you about $2.00 to run end to end, assuming you shutdown and delete all resources upon completion.
+
 <span style="color:red">[**dartmouth_intro_vid.mp4**]</span>
 
 ## Overview of Page Contents

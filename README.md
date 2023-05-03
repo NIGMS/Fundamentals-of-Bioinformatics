@@ -5,7 +5,7 @@ This module introduces you to the BASH coding language, working with common geno
 
 This module will cost you about $2.00 to run end to end, assuming you shutdown and delete all resources upon completion.
 
-<span style="color:red">[**dartmouth_intro_vid.mp4**]</span>
+<span style="color:red">[https://www.youtube.com/watch?v=VaZedZhjXrU&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=1]</span>
 
 ## Overview of Page Contents
 

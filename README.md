@@ -5,7 +5,7 @@ This module introduces you to the BASH coding language, working with common geno
 
 This module will cost you about $2.00 to run end to end, assuming you shutdown and delete all resources upon completion.
 
-<span style="color:red">Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=1) to learn more about the module.</span>
+Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=1) to learn more about the module.
 
 ## Overview of Page Contents
 
@@ -24,7 +24,7 @@ Included here are several submodules or tutorials in the form of Jupyter noteboo
 
 Before you begin navigating the submodules you will need to enable extensions in the Jupyter notebook. To do this you can click on the puzzle piece icon <img src="images/extension.png" width="20" height="20"> on the left most menu (down the side of the Jupyter notebook) and click on the red button that says **Enable**.  
 
-## **Overview** <a name="OV"></a>
+## **Overview**
 
 This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 

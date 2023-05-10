@@ -10,7 +10,7 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 ## Overview of Page Contents
 
 + [Getting Started](#GS)
-+ [Overview](#OV)
++ [Overview](#overview)
 + [Software Requirements](#SOF)
 + [Data](#DATA)
 + [Troubleshooting](#TR)

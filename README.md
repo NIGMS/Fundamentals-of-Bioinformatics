@@ -12,7 +12,7 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 + [Getting Started](#getting-started)
 + [Overview](#overview)
 + [Software Requirements](#software-requirements)
-+ [Workflow Diagrams](workflow-diagrams)
++ [Workflow Diagrams](#workflow-diagrams)
 + [Data](#data)
 + [Troubleshooting](#troubleshooting)
 + [Funding](#funding)

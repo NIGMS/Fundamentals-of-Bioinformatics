@@ -23,7 +23,7 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 
 Included here are several submodules or tutorials in the form of Jupyter notebooks. The purpose of these submodules is to help users familiarize themselves with the cloud computing environment in the specific context of working with genomics data and software packages to analyze genomics data. These tutorials accomplish this by going step-by-step introducing users to the cloud environment, the terminal interface, the BASH coding language, genomics file formats, the conda software package manager, and methods for mitigating common coding errors. These lessons build familiarity with the terminal environment and set users up to begin working with their own datasets in the terminal environment. For additional technical details on interfacing with the cloud users should reference [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP).
 
-Before you begin navigating the submodules you will need to enable extensions in the Jupyter notebook. To do this you can click on the puzzle piece icon <img src="images/extension.png" width="20" height="20"> on the left most menu (down the side of the Jupyter notebook) and click on the red button that says **Enable**.  
+Before you begin navigating the submodules you will need to enable extensions in the Jupyter notebook. To do this you can click on the puzzle piece icon ![enable extensions](images/extension.png) on the left most menu (down the side of the Jupyter notebook) and click on the red button that says **Enable**.  
 
 ## **Overview**
 
@@ -48,7 +48,7 @@ dependencies:
 
 ## **Workflow Diagrams**
 
-![](images/updated_Dartmouth_AD.png)
+![workflow diagram](images/updated_Dartmouth_AD.png)
 
 As seen in the image above, we will download sequence files from the Google bucket to our Vertex AI virtual machine. We will practice running BASH commands using the sequence files in the bucket, as well as get practice downloading sequence data from the SRA. Using the Conda package manager we will install and use FastQC, MultiQC, Sra-tools, Spades, and Prokka to analyze data from the SRA. Lastly we will create a new Google bucket, and copy our analyzed data to the new bucket. We explain our submodules that execute these processes here:
 

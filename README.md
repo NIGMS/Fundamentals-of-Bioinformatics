@@ -9,16 +9,17 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 
 ## Overview of Page Contents
 
-+ [Getting Started](#GS)
++ [Getting Started](#getting-started)
 + [Overview](#overview)
-+ [Software Requirements](#SOF)
-+ [Data](#DATA)
-+ [Troubleshooting](#TR)
-+ [Funding](#FUND)
-+ [License for Data](#LIC)
++ [Software Requirements](#software-requirements)
++ [Workflow Diagrams](workflow-diagrams)
++ [Data](#data)
++ [Troubleshooting](#troubleshooting)
++ [Funding](#funding)
++ [License for Data](#license-for-data)
 
 
-## **Getting Started** <a name="GS"></a>
+## **Getting Started**
 
 Included here are several submodules or tutorials in the form of Jupyter notebooks. The purpose of these submodules is to help users familiarize themselves with the cloud computing environment in the specific context of working with genomics data and software packages to analyze genomics data. These tutorials accomplish this by going step-by-step introducing users to the cloud environment, the terminal interface, the BASH coding language, genomics file formats, the conda software package manager, and methods for mitigating common coding errors. These lessons build familiarity with the terminal environment and set users up to begin working with their own datasets in the terminal environment. For additional technical details on interfacing with the cloud users should reference [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP).
 
@@ -28,7 +29,7 @@ Before you begin navigating the submodules you will need to enable extensions in
 
 This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 
-## **Software Requirements** <a name="SOF"></a>
+## **Software Requirements**
 
 All software needed for this module will be installed in the **Software management** lesson using the `env.yml` file included in this repository. Additionally, you will need access to a Jupyter Environment. Some notebooks will require access to the Google Cloud Platform Vertex AI environment. 
 
@@ -45,7 +46,7 @@ dependencies:
 - multiqc
 ```
 
-## **Workflow Diagrams** <a name="WORK"></a>
+## **Workflow Diagrams**
 
 <img src="images/updated_Dartmouth_AD.png" width="650" height="700">
 
@@ -59,7 +60,7 @@ As seen in the image above, we will download sequence files from the Google buck
 + Submodule 6, **Putting It All Together** leverages all of the skills learned in earlier lessons to download data from the SRA, create a Conda environment for genome assembly and annotation, check the quality, assemble, and annotate a genome. Then create a Google bucket and write a finalized file set to the Google bucket. 
 + Submodule 7, **Error Mitigation** provides strategies for mitigating common coding errors. 
 
-## **Data** <a name="DATA"></a>
+## **Data**
 
 The fasta files used in these lessons were pulled from NCBI using the accession number NC_045512.2 for the Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome and the associated annotation file (GFF file). The fasta file containing the S11 ribosomal protein sequences from several proteobacteria was originally generated for **Shakya et al., 2017**.
 
@@ -67,7 +68,7 @@ The fastq files used in the Genomics file formats lesson were downloaded from th
 
 The fastq files downloaded from the SRA in submodule 6 **Putting It All Together** are downloaded from the SRA database using accession number SRR18435413. This sample was sequenced as part of a surveillance effort for SARS CoV2 infections in western New Hampshire. 
 
-## **Troubleshooting** <a name="TR"></a>
+## **Troubleshooting**
 
 Most of the errors that you might encounter are discussed in submodule 7 **Error mitigation**, however there are some additional errors you may run into that are not discussed in that lesson.
 
@@ -79,11 +80,11 @@ If you're not seeing the kernel named __Python [conda env:root]__ you should ens
 
 If you're trying to access software that you installed with a conda environment and you're getting a warning that the software does not exist, check that you have the conda environment loaded. In the **Jupyter Notebook** you should see the name of the conda environment in the top right corner of the module, for example *Python [conda env:test_env]*. In the **terminal window** you should see the name of the conda environment in parentheses proceeding the prompt, for example (test_env). 
 
-## **Funding** <a name="FUND"></a>
+## **Funding**
 
 This resource was supported with funds from NIH grant P20GM130454 and NIH grant 3P20GM103506.
 
-## **License for Data** <a name="LIC"></a>
+## **License for Data**
 
 Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
 

@@ -1,3 +1,4 @@
+![course card](images/Dartmouth-course-card.png)
 # Dartmouth College Bioinformatics for Beginners
 ---------------------------------
 

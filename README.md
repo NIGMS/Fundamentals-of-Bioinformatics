@@ -2,7 +2,7 @@
 # Dartmouth College Bioinformatics for Beginners
 ---------------------------------
 
-This module introduces you to the [Bash shell scripting language](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), working with common genomics file formats, and working within the terminal environment. In addition to the overview given in this README you will find 6 submodules in the forms of Jupyter notebooks that teach you different components of working with genomics data in the cloud. To use our module clone this repo using `git clone https://github.com/NIGMS/Fundamentals-of-Bioinformatics.git` and then navigate to the directory for this project. You will then see the notebooks in your environment.
+This module introduces you to the [Bash shell scripting language](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), working with common genomics file formats, and working within the terminal environment. In addition to the overview given in this README you will find 6 submodules in the forms of Jupyter notebooks that teach you different components of working with genomics data in the cloud. 
 
 This module will cost you about $2.00 to run end to end, assuming you shutdown and delete all resources upon completion.
 
@@ -23,6 +23,12 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 ## **Getting Started**
 
 Included here are several submodules or tutorials in the form of Jupyter notebooks. The purpose of these submodules is to help users familiarize themselves with the cloud computing environment in the specific context of working with genomics data and software packages to analyze genomics data. These tutorials accomplish this by going step-by-step introducing users to the cloud environment, the terminal interface, the BASH coding language, genomics file formats, the conda software package manager, and methods for mitigating common coding errors. These lessons build familiarity with the terminal environment and set users up to begin working with their own datasets in the terminal environment. For additional technical details on interfacing with the cloud users should reference [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP).
+
+### Creating a user managed notebook 
+
+Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 11 and Python 3 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
+
+To use our module, open a new Terminal window from your new notebook instance and clone this repo using `git clone https://github.com/NIGMS/Fundamentals-of-Bioinformatics.git`. Navigate to the directory for this project. You will then see the notebooks in your environment.
 
 Before you begin navigating the submodules you will need to enable extensions in the Jupyter notebook. To do this you can click on the puzzle piece icon ![enable extensions](images/extension.png) on the left most menu (down the side of the Jupyter notebook) and click on the red button that says **Enable**.  
 

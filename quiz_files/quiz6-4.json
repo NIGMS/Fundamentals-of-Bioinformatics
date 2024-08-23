@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": " gsutil cp assembly_test/*.gff gs://&#0036BUCKET"
-    }
-]

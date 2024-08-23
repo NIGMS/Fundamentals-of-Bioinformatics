@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": "The redirect command will replace the result each time the loop is run and the final file will have only a single result."
-    }
-]

@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": "The # sign comments out whatever is typed after it, this is helpful for annotating code blocks, or running only specific lines of code."
-    }
-]

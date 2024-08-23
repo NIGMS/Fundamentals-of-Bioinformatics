@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": "The second grep command in the pipe is looking for a lowercase n rather than an uppercase N."
-    }
-]

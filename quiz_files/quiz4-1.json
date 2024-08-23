@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": "for i in \{1..25\}<br>do echo &#0036i <br>done <br> "
-    }
-]

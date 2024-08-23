@@ -1,6 +1,0 @@
-[
-    {
-        "front": "answer",
-        "back": "ls assembly_test/*.fastq | while read x<br> do fastqc -o assembly_test &#0036x <br>done"
-    }
-]

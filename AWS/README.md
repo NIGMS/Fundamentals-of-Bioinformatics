@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/7ccde233-55e9-4a40-8552-2fbb759652a8)# Fundamentals of Bioinformatics on AWS
+
 ## Overview of Page Contents
 
 + [Getting Started](#getting-started)
@@ -10,7 +12,7 @@ This README contains information on running the modules on Amazon Web Services (
 
 Users should reference NIH Cloud Lab README (link needed for AWS documentation) for additional technical information on working with AWS for completing this module.
 
-### Creating a user managed notebook 
+### Creating a SageMaker Notebook
 
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new user-managed notebook in AWS SageMaker. For this module you should select Linux 2 and Python 3 in the Environment. In the Notebook instance type tab, select ml.m5.xlarge from the dropdown box. It is **important to shut down** the kernel at the end of your work to avoid getting charged.
 

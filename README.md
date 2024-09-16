@@ -15,6 +15,15 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 + [Funding](#funding)
 + [License for Data](#license-for-data)
 
+## Learning Objectives
++ Gain familiarity with the Linux command line
++ Understand basic concepts of cloud computing
++ Understand the structure of common bioinformatics files
++ Use the Linux command line to summarize information from bioinformatics data files
++ Install bioinformatics software using Conda on the Linux command line
++ Run a simple bioinformatics workflow on the Linux command line
++ Troubleshoot common command line errors
+
 ## **Data**
 
 The fasta files used in these lessons were pulled from NCBI using the accession number NC_045512.2 for the Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome and the associated annotation file (GFF file). The fasta file containing the S11 ribosomal protein sequences from several proteobacteria was originally generated for **Shakya et al., 2017**.

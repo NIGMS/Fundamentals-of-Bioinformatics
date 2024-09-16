@@ -9,7 +9,7 @@
 
 This module will cost you about $2.00 to run end to end on GCP, assuming you shutdown and delete all resources upon completion.
 
-This README contains information on running the modules on Google Cloud Platform. For background information on the biological use case, data sets, and learning objectives, refer to the [overall README file](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/README.md) for the entire module.
+This README contains information on running the modules on Google Cloud Platform. For background information on the biological use case, data sets, and learning objectives, refer to the [overall README file](README.md) for the entire module.
 
 Users should reference [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP) for additional technical information on working with GCP for completing this module.
 

@@ -25,13 +25,15 @@ All software needed for this module will be installed in the **Software manageme
 
 You can install all necessary requirements using the instructions in `env.yml`, but they will generally look like this:
 
-'''name: test_env channels:
+```
+name: test_env channels:
 
 bioconda dependencies:
 python= 3.9
 ipykernel
 fastqc
-multiqc'''
+multiqc
+```
 
 ## **Workflow Diagrams**
 

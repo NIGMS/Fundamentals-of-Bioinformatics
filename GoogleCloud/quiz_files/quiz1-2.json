@@ -1,0 +1,10 @@
+[
+    {
+        "front": "hint",
+        "back": "mkdir creates new directories."
+    },
+    {
+        "front": "answer",
+        "back": "mkdir -p /home/jupyter/my_directory<br>mkdir -p /home/jupyter/new_dir"
+    }
+]

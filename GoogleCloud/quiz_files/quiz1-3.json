@@ -1,0 +1,10 @@
+[
+    {
+        "front": "hint",
+        "back": "use the command pwd to remind you of the absolute path of where you are. Use this to get the absolute path of where you need to go, and use this to understand the directory structure for the relative path."
+    },
+    {
+        "front": "answer",
+        "back": "cd /home/jupyter/my_directory<br>cd ../new_dir"
+    }
+]

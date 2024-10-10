@@ -1,0 +1,6 @@
+[
+    {
+        "front": "answer",
+        "back": "zcat gcp_research_workflow/SRR1039508_1.chr20.fastq.gz | sed -n '4~4p' | head -n 10000 | grep -o .| grep -c \"#\" "
+    }
+]

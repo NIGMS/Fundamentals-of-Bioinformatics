@@ -2,10 +2,14 @@
 
 ## Overview of Page Contents
 
-+ [Getting Started](#getting-started)
 + [Overview](#overview)
++ [Getting Started](#getting-started)
 + [Software Requirements](#software-requirements)
 + [Workflow Diagrams](#workflow-diagrams)
+
+## **Overview**
+
+This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 
 ## **Getting Started**
 
@@ -18,10 +22,6 @@ Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/bl
 To use our module, open a new Terminal window from your new notebook instance and clone this repo using `git clone https://github.com/NIGMS/Fundamentals-of-Bioinformatics/GoogleCloud.git`. Navigate to the directory for this project. You will then see the notebooks in your environment.
 
 Before you begin navigating the submodules you will need to enable extensions in the Jupyter notebook. To do this you can click on the puzzle piece icon ![enable extensions](images/extension.png) on the left most menu (down the side of the Jupyter notebook) and click on the red button that says **Enable**.  
-
-## **Overview**
-
-This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 
 ## **Software Requirements**
 

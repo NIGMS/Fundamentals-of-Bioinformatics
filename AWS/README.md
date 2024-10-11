@@ -2,10 +2,14 @@
 
 ## Overview of Page Contents
 
-+ [Getting Started](#getting-started)
 + [Overview](#overview)
++ [Getting Started](#getting-started)
 + [Software Requirements](#software-requirements)
 + [Architecture Design](#architecture-design)
+  
+## **Overview**
+
+This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 
 ## **Getting Started**
 
@@ -16,10 +20,6 @@ Included here are several submodules or tutorials in the form of Jupyter noteboo
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in AWS SageMaker. For this module you should select Linux 2 and Python 3 in the Environment. In the Notebook instance type tab, select ml.m5.xlarge from the dropdown box. It is **important to shut down** the kernel at the end of your work to avoid getting charged.
 
 To use our module, open a new Terminal window from your new notebook instance and clone this repo using `git clone https://github.com/NIGMS/Fundamentals-of-Bioinformatics/AWS.git`. Navigate to the directory for this project. You will then see the notebooks in your environment.
-
-## **Overview**
-
-This module teaches you how to interact with genomics files using the terminal interface in the cloud. Each lesson builds upon the skills and BASH code from the previous lesson using Jupyter notebooks. By the end of the module you should be familiar with the format of many genomics files, installing bioinformatics tools that analyze genomics data, and have an understanding of the process of building complex BASH code to work with genomics files.
 
 ## **Software Requirements**
 

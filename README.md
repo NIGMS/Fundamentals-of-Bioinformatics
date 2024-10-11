@@ -8,6 +8,8 @@ Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list
 
 ## Overview of Page Contents
 
++ [Learning Objectives](#learning_objectives)
++ [Workflow](#workflow)
 + [Data](#data)
 + [Troubleshooting](#troubleshooting)
 + [Funding](#funding)

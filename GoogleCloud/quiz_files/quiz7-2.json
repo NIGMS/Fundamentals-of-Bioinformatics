@@ -1,0 +1,6 @@
+[
+    {
+        "front": "answer",
+        "back": "The variable in the loop set up is i but the variable in the body of the loop is x. If you change these variables so they match the loop will run."
+    }
+]

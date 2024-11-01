@@ -42,7 +42,7 @@ dependencies:
 
 ## **Workflow Diagrams**
 
-![workflow diagram](images/updated_Dartmouth_AD.png)
+![workflow diagram](images/updated_Dartmouth_AD.svg)
 
 As seen in the image above, we will download sequence files from the Google bucket to our Vertex AI virtual machine. We will practice running BASH commands using the sequence files in the bucket, as well as get practice downloading sequence data from the SRA. Using the Conda package manager we will install and use FastQC, MultiQC, SRA tools, Spades, and Prokka to analyze data from the SRA. Lastly we will create a new Google bucket, and copy our analyzed data to the new bucket. We explain our submodules that execute these processes here:
 

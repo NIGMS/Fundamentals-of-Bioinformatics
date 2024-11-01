@@ -17,7 +17,7 @@ Included here are several submodules or tutorials in the form of Jupyter noteboo
 
 ### Creating a notebook instance
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in AWS SageMaker. For this module you should select Linux 2 and Python 3 in the Environment. In the Notebook instance type tab, select ml.m5.xlarge from the dropdown box. It is **important to shut down** the kernel at the end of your work to avoid getting charged.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in AWS SageMaker. For this module you should select Linux 2 and Python 3 in the Environment. In the Notebook instance type tab, select ml.t3.2xlarge from the dropdown box and set volume size to 20 GB. It is **important to shut down** the kernel at the end of your work to avoid getting charged.
 
 To use our module, open a new Terminal window from your new notebook instance and clone this repo using `git clone https://github.com/NIGMS/Fundamentals-of-Bioinformatics/AWS.git`. Navigate to the directory for this project. You will then see the notebooks in your environment.
 
@@ -39,7 +39,7 @@ multiqc
 
 ## **Architecture Design**
 
-![workflow diagram](images/updated_Dartmouth_AD.png)
+![workflow diagram](images/updated_Dartmouth_AD.svg)
 
 As seen in the image above, we will download sequence files from the AWS S3 bucket to our SageMaker virtual machine. We will practice running BASH commands using the sequence files in the bucket, as well as get practice downloading sequence data from the SRA. Using the Conda package manager we will install and use FastQC, MultiQC, SRA tools, Spades, and Prokka to analyze data from the SRA. Lastly we will create a new AWS S3 bucket, and copy our analyzed data to the new bucket. We explain our submodules that execute these processes here:
 

@@ -2,7 +2,7 @@
 # Dartmouth College Bioinformatics for Beginners
 ---------------------------------
 
-This module introduces you to the [Bash shell scripting language](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), working with common genomics file formats, and working within the terminal environment. In addition to the overview given in this README you will find 6 submodules in the forms of Jupyter notebooks that teach you different components of working with genomics data in the cloud. This module can be run on either [Google Cloud Platform (GCP)](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/Ross_readmes/GoogleCloud/) or [Amazon Web Services (AWS)](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/Ross_readmes/AWS/)
+This module introduces you to the [Bash shell scripting language](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), working with common genomics file formats, and working within the terminal environment. In addition to the overview given in this README you will find 6 submodules in the forms of Jupyter notebooks that teach you different components of working with genomics data in the cloud. This module can be run on either [Google Cloud Platform (GCP)](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/tree/main/GoogleCloud/) or [Amazon Web Services (AWS)](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/tree/main/AWS/)
 
 Watch this [Introduction Video](https://www.youtube.com/watch?v=VaZedZhjXrU&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=1) to learn more about the module.
 
@@ -62,7 +62,7 @@ This resource was supported with funds from NIH grant P20GM130454 and NIH grant 
 
 ## **License for Data**
 
-Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about).
 
 ![Creative commons license](images/licensebuttons.png)
 

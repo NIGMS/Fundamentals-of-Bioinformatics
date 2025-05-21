@@ -56,7 +56,7 @@ As seen in the image above, we will download sequence files from the Google buck
 
 ### Gemini (Optional)
 
-Generative AI is available for this tutorial in the form of Gemini if you would like to use it. To run it, please reference submodule05 or run the following code. 
+Generative AI is available for this tutorial in the form of Gemini if you would like to use it. To run it, please reference submodule05 or run the following code within a submodule notebook. 
 
 ```!pip install -q google-generativeai google-cloud-secret-manager
 !pip install -q git+https://github.com/NIGMS/NIGMS-Sandbox-Repository-Template.git#subdirectory=llm_integrations

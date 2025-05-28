@@ -57,7 +57,7 @@ As seen in the image above, we will download sequence files from the AWS S3 buck
 
 ## Bedrock (Optional)
 
-Generative AI is available for this tutorial in the form of Bedrock if you would like to use it. To run it, please reference submodule 5, or run the following code within a submodule notebook after requesting access to Llama 3 8B Instruct. 
+Generative AI is available for this tutorial in the form of Bedrock if you would like to use it. To run it, please reference submodule 5, or run the following code within a submodule notebook after [requesting access](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/notebooks/GenAI/AWS_Bedrock_Intro.ipynb) to Llama 3 8B Instruct. 
 
 ```!pip install -q ipywidgets
 import sys

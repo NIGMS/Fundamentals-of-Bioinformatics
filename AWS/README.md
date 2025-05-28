@@ -53,4 +53,21 @@ As seen in the image above, we will download sequence files from the AWS S3 buck
 + Submodule 4, **Beyond Basic BASH** begins with a reminder of all the BASH commands covered in earlier lessons and combine complex commands with a loop and BASH scripting to iterate over several files with a single command. 
 + Submodule 5, **Software Management** uses the Conda package manager to create and install environments where software can be installed. 
 + Submodule 6, **Putting It All Together** leverages all of the skills learned in earlier lessons to download data from the SRA, create a Conda environment for genome assembly and annotation, check the quality, assemble, and annotate a genome. Then create an AWS S3 bucket and write a finalized file set to the AWS S3 bucket. 
-+ Submodule 7, **Error Mitigation** provides strategies for mitigating common coding errors. 
++ Submodule 7, **Error Mitigation** provides strategies for mitigating common coding errors.
+
+## Bedrock (Optional)
+
+Generative AI is available for this tutorial in the form of Bedrock if you would like to use it. To run it, please reference submodule 5, or run the following code within a submodule notebook after [requesting access](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/notebooks/GenAI/AWS_Bedrock_Intro.ipynb) to Llama 3 8B Instruct. 
+
+```!pip install -q ipywidgets
+import sys
+import os
+util_path = os.path.join(os.getcwd(), 'util')
+if util_path not in sys.path:
+    sys.path.append(util_path)
+
+# Import the display_widgets function from your Python file
+from genai import display_widgets
+
+# Call the function to display the widgets
+display_widgets()
